@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace projeketskp
 {
-    public partial class Form1 : Form
+    public partial class Forms1 : Form
     {
-        public Form1()
+        public Forms1()
         {
             InitializeComponent();
         }

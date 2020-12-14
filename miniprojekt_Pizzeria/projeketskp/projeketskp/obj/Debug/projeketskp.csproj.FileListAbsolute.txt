@@ -2,9 +2,9 @@ C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projek
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\bin\Debug\projeketskp.exe
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\bin\Debug\projeketskp.pdb
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.csprojAssemblyReference.cache
-C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.Form1.resources
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.Properties.Resources.resources
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.csproj.GenerateResource.cache
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.csproj.CoreCompileInputs.cache
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.exe
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.pdb
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.Forms1.resources
