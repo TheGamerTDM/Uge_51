@@ -241,7 +241,7 @@ namespace WindowsFormsApp1
             this.buynow.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buynow.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buynow.ForeColor = System.Drawing.Color.White;
-            this.buynow.Location = new System.Drawing.Point(201, 209);
+            this.buynow.Location = new System.Drawing.Point(196, 209);
             this.buynow.Name = "buynow";
             this.buynow.Size = new System.Drawing.Size(133, 65);
             this.buynow.TabIndex = 16;
