@@ -271,7 +271,7 @@ namespace projeketskp
             this.Controls.Add(this.topheadder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Forms1";
-            this.Text = "<";
+            this.Text = "Daxi Pizza";
             this.ResumeLayout(false);
             this.PerformLayout();
 
