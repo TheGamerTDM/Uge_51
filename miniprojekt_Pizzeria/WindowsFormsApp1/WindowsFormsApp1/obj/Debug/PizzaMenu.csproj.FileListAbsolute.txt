@@ -1,0 +1,10 @@
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\PizzaMenu.csprojAssemblyReference.cache
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\PizzaMenu.csproj.GenerateResource.cache
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\PizzaMenu.csproj.CoreCompileInputs.cache
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
