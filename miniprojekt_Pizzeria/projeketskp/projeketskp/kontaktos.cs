@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace projeketskp
 {
-    public partial class Forms1 : Form
+    public partial class kontaktos : Form
     {
-        public Forms1()
+        public kontaktos()
         {
             InitializeComponent();
         }
 
-        private void kontakosButton_Click(object sender, EventArgs e)
+        private void menuButton_Click(object sender, EventArgs e)
         {
-            kontaktos f = new kontaktos(); // This is bad
+            Forms1 f = new Forms1(); // This is bad
             this.Hide();
             f.Show();
         }

@@ -31,8 +31,7 @@ namespace projeketskp
         {
             this.topheadder = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.Menu = new System.Windows.Forms.Button();
-            this.kontakos = new System.Windows.Forms.Button();
+            this.kontakosButton = new System.Windows.Forms.Button();
             this.almNiels = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,6 +45,7 @@ namespace projeketskp
             this.label7 = new System.Windows.Forms.Label();
             this.mikeAlm = new System.Windows.Forms.CheckBox();
             this.chekout = new System.Windows.Forms.Button();
+            this.lavselvButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // topheadder
@@ -71,42 +71,29 @@ namespace projeketskp
             this.label1.TabIndex = 2;
             this.label1.Text = "Daxi Pizza Bestillings Serveice";
             // 
-            // Menu
+            // kontakosButton
             // 
-            this.Menu.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Menu.ForeColor = System.Drawing.Color.Cyan;
-            this.Menu.Location = new System.Drawing.Point(2, 1);
-            this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(49, 25);
-            this.Menu.TabIndex = 3;
-            this.Menu.Text = "Menu";
-            this.Menu.UseVisualStyleBackColor = false;
-            // 
-            // kontakos
-            // 
-            this.kontakos.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.kontakos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.kontakos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.kontakos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kontakos.ForeColor = System.Drawing.Color.Cyan;
-            this.kontakos.Location = new System.Drawing.Point(57, 1);
-            this.kontakos.Name = "kontakos";
-            this.kontakos.Size = new System.Drawing.Size(85, 25);
-            this.kontakos.TabIndex = 4;
-            this.kontakos.Text = "Kontakt OS";
-            this.kontakos.UseVisualStyleBackColor = false;
+            this.kontakosButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.kontakosButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.kontakosButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.kontakosButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kontakosButton.ForeColor = System.Drawing.Color.Cyan;
+            this.kontakosButton.Location = new System.Drawing.Point(4, 1);
+            this.kontakosButton.Name = "kontakosButton";
+            this.kontakosButton.Size = new System.Drawing.Size(85, 25);
+            this.kontakosButton.TabIndex = 4;
+            this.kontakosButton.Text = "Kontakt OS";
+            this.kontakosButton.UseVisualStyleBackColor = false;
+            this.kontakosButton.Click += new System.EventHandler(this.kontakosButton_Click);
             // 
             // almNiels
             // 
             this.almNiels.AutoSize = true;
             this.almNiels.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.almNiels.ForeColor = System.Drawing.Color.Black;
-            this.almNiels.Location = new System.Drawing.Point(202, 170);
+            this.almNiels.Location = new System.Drawing.Point(202, 160);
             this.almNiels.Name = "almNiels";
-            this.almNiels.Size = new System.Drawing.Size(108, 20);
+            this.almNiels.Size = new System.Drawing.Size(99, 20);
             this.almNiels.TabIndex = 5;
             this.almNiels.Text = "Alm. 69 Kr.";
             this.almNiels.UseVisualStyleBackColor = true;
@@ -116,7 +103,7 @@ namespace projeketskp
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(197, 120);
+            this.label2.Location = new System.Drawing.Point(197, 110);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(200, 31);
             this.label2.TabIndex = 6;
@@ -127,9 +114,9 @@ namespace projeketskp
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(199, 151);
+            this.label3.Location = new System.Drawing.Point(199, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(317, 16);
+            this.label3.Size = new System.Drawing.Size(305, 16);
             this.label3.TabIndex = 7;
             this.label3.Text = "Tomatsovs, Ost, Skinke, Leverpostej, Salat";
             // 
@@ -138,9 +125,9 @@ namespace projeketskp
             this.famNiels.AutoSize = true;
             this.famNiels.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.famNiels.ForeColor = System.Drawing.Color.Black;
-            this.famNiels.Location = new System.Drawing.Point(202, 193);
+            this.famNiels.Location = new System.Drawing.Point(202, 183);
             this.famNiels.Name = "famNiels";
-            this.famNiels.Size = new System.Drawing.Size(121, 20);
+            this.famNiels.Size = new System.Drawing.Size(111, 20);
             this.famNiels.TabIndex = 8;
             this.famNiels.Text = "Fam. 110 Kr.";
             this.famNiels.UseVisualStyleBackColor = true;
@@ -150,9 +137,9 @@ namespace projeketskp
             this.papFam.AutoSize = true;
             this.papFam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.papFam.ForeColor = System.Drawing.Color.Black;
-            this.papFam.Location = new System.Drawing.Point(197, 289);
+            this.papFam.Location = new System.Drawing.Point(197, 279);
             this.papFam.Name = "papFam";
-            this.papFam.Size = new System.Drawing.Size(121, 20);
+            this.papFam.Size = new System.Drawing.Size(111, 20);
             this.papFam.TabIndex = 12;
             this.papFam.Text = "Fam. 120 Kr.";
             this.papFam.UseVisualStyleBackColor = true;
@@ -162,9 +149,9 @@ namespace projeketskp
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(196, 244);
+            this.label4.Location = new System.Drawing.Point(196, 234);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(381, 16);
+            this.label4.Size = new System.Drawing.Size(365, 16);
             this.label4.TabIndex = 11;
             this.label4.Text = "Tomatsovs, Ost, Kebab, Kylling, Salat med dressing";
             // 
@@ -173,7 +160,7 @@ namespace projeketskp
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(195, 213);
+            this.label5.Location = new System.Drawing.Point(195, 203);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(185, 31);
             this.label5.TabIndex = 10;
@@ -184,9 +171,9 @@ namespace projeketskp
             this.papAlm.AutoSize = true;
             this.papAlm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.papAlm.ForeColor = System.Drawing.Color.Black;
-            this.papAlm.Location = new System.Drawing.Point(198, 263);
+            this.papAlm.Location = new System.Drawing.Point(198, 253);
             this.papAlm.Name = "papAlm";
-            this.papAlm.Size = new System.Drawing.Size(108, 20);
+            this.papAlm.Size = new System.Drawing.Size(99, 20);
             this.papAlm.TabIndex = 9;
             this.papAlm.Text = "Alm. 59 Kr.";
             this.papAlm.UseVisualStyleBackColor = true;
@@ -196,9 +183,9 @@ namespace projeketskp
             this.mikeFam.AutoSize = true;
             this.mikeFam.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mikeFam.ForeColor = System.Drawing.Color.Black;
-            this.mikeFam.Location = new System.Drawing.Point(197, 382);
+            this.mikeFam.Location = new System.Drawing.Point(197, 372);
             this.mikeFam.Name = "mikeFam";
-            this.mikeFam.Size = new System.Drawing.Size(112, 20);
+            this.mikeFam.Size = new System.Drawing.Size(103, 20);
             this.mikeFam.TabIndex = 16;
             this.mikeFam.Text = "Fam. 50 Kr.";
             this.mikeFam.UseVisualStyleBackColor = true;
@@ -208,9 +195,9 @@ namespace projeketskp
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(194, 340);
+            this.label6.Location = new System.Drawing.Point(194, 330);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 16);
+            this.label6.Size = new System.Drawing.Size(159, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "Brøde med Sodavand";
             // 
@@ -219,7 +206,7 @@ namespace projeketskp
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(192, 309);
+            this.label7.Location = new System.Drawing.Point(192, 299);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(195, 31);
             this.label7.TabIndex = 14;
@@ -230,21 +217,36 @@ namespace projeketskp
             this.mikeAlm.AutoSize = true;
             this.mikeAlm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mikeAlm.ForeColor = System.Drawing.Color.Black;
-            this.mikeAlm.Location = new System.Drawing.Point(197, 359);
+            this.mikeAlm.Location = new System.Drawing.Point(197, 349);
             this.mikeAlm.Name = "mikeAlm";
-            this.mikeAlm.Size = new System.Drawing.Size(108, 20);
+            this.mikeAlm.Size = new System.Drawing.Size(99, 20);
             this.mikeAlm.TabIndex = 13;
             this.mikeAlm.Text = "Alm. 20 Kr.";
             this.mikeAlm.UseVisualStyleBackColor = true;
             // 
             // chekout
             // 
-            this.chekout.Location = new System.Drawing.Point(346, 404);
+            this.chekout.Location = new System.Drawing.Point(315, 404);
             this.chekout.Name = "chekout";
             this.chekout.Size = new System.Drawing.Size(100, 34);
             this.chekout.TabIndex = 17;
             this.chekout.Text = "Gå til kurv";
             this.chekout.UseVisualStyleBackColor = true;
+            // 
+            // lavselvButton
+            // 
+            this.lavselvButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lavselvButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.lavselvButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lavselvButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lavselvButton.ForeColor = System.Drawing.Color.Cyan;
+            this.lavselvButton.Location = new System.Drawing.Point(95, 1);
+            this.lavselvButton.Name = "lavselvButton";
+            this.lavselvButton.Size = new System.Drawing.Size(85, 25);
+            this.lavselvButton.TabIndex = 18;
+            this.lavselvButton.Text = "Lave selv";
+            this.lavselvButton.UseVisualStyleBackColor = false;
+            this.lavselvButton.Click += new System.EventHandler(this.lavselvButton_Click);
             // 
             // Forms1
             // 
@@ -252,6 +254,7 @@ namespace projeketskp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(735, 450);
+            this.Controls.Add(this.lavselvButton);
             this.Controls.Add(this.chekout);
             this.Controls.Add(this.mikeFam);
             this.Controls.Add(this.label6);
@@ -265,13 +268,13 @@ namespace projeketskp
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.almNiels);
-            this.Controls.Add(this.kontakos);
-            this.Controls.Add(this.Menu);
+            this.Controls.Add(this.kontakosButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.topheadder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Forms1";
-            this.Text = "Daxi Pizza";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,8 +283,7 @@ namespace projeketskp
         #endregion
         private System.Windows.Forms.Button topheadder;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Menu;
-        private System.Windows.Forms.Button kontakos;
+        private System.Windows.Forms.Button kontakosButton;
         private System.Windows.Forms.CheckBox almNiels;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -295,6 +297,7 @@ namespace projeketskp
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.CheckBox mikeAlm;
         private System.Windows.Forms.Button chekout;
+        private System.Windows.Forms.Button lavselvButton;
     }
 }
 

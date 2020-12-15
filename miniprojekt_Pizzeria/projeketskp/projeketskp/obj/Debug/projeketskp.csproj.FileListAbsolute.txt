@@ -8,3 +8,5 @@ C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projek
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.exe
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.pdb
 C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.Forms1.resources
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.kontaktos.resources
+C:\Users\Omad-PC\Documents\GitHub\Uge_51\miniprojekt_Pizzeria\projeketskp\projeketskp\obj\Debug\projeketskp.laveselv.resources
