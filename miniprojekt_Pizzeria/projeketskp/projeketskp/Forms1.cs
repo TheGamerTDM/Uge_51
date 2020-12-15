@@ -19,16 +19,18 @@ namespace projeketskp
 
         private void kontakosButton_Click(object sender, EventArgs e)
         {
-            kontaktos f = new kontaktos(); // This is bad
+            kontaktos f = new kontaktos();
             this.Hide();
             f.Show();
         }
 
         private void lavselvButton_Click(object sender, EventArgs e)
         {
-            laveselv f = new laveselv(); // This is bad
+            laveselv f = new laveselv();
             this.Hide();
             f.Show();
         }
     }
+
+
 }

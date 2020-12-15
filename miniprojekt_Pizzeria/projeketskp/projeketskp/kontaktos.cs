@@ -19,14 +19,14 @@ namespace projeketskp
 
         private void menuButton_Click(object sender, EventArgs e)
         {
-            Forms1 f = new Forms1(); // This is bad
+            Forms1 f = new Forms1();
             this.Hide();
             f.Show();
         }
 
         private void lavselvButton_Click(object sender, EventArgs e)
         {
-            laveselv f = new laveselv(); // This is bad
+            laveselv f = new laveselv();
             this.Hide();
             f.Show();
         }
