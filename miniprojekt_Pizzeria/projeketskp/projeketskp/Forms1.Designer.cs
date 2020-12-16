@@ -45,10 +45,6 @@ namespace projeketskp
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -74,8 +70,22 @@ namespace projeketskp
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -146,6 +156,15 @@ namespace projeketskp
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.label13);
+            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.label14);
+            this.panel5.Controls.Add(this.textBox15);
+            this.panel5.Controls.Add(this.textBox17);
+            this.panel5.Controls.Add(this.checkBox14);
+            this.panel5.Controls.Add(this.checkBox16);
+            this.panel5.Controls.Add(this.textBox16);
+            this.panel5.Controls.Add(this.checkBox15);
             this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(735, 190);
             this.panel5.Name = "panel5";
@@ -156,16 +175,16 @@ namespace projeketskp
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.label7);
-            this.panel6.Controls.Add(this.label2);
             this.panel6.Controls.Add(this.label8);
-            this.panel6.Controls.Add(this.textBox2);
             this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.comboBox1);
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.label3);
-            this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.label4);
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.label6);
+            this.panel6.Controls.Add(this.textBox2);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Controls.Add(this.comboBox1);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel6.Location = new System.Drawing.Point(369, 342);
             this.panel6.Name = "panel6";
@@ -186,16 +205,16 @@ namespace projeketskp
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(192, 26);
+            this.textBox1.Location = new System.Drawing.Point(220, 26);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(92, 22);
+            this.textBox1.Size = new System.Drawing.Size(64, 22);
             this.textBox1.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(139, 22);
+            this.label1.Location = new System.Drawing.Point(3, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 0;
@@ -222,7 +241,7 @@ namespace projeketskp
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(61, 80);
+            this.label2.Location = new System.Drawing.Point(52, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 16);
             this.label2.TabIndex = 1;
@@ -232,7 +251,7 @@ namespace projeketskp
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(210, 15);
+            this.label3.Location = new System.Drawing.Point(206, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 16);
             this.label3.TabIndex = 3;
@@ -242,7 +261,7 @@ namespace projeketskp
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(210, 28);
+            this.label4.Location = new System.Drawing.Point(206, 35);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 16);
             this.label4.TabIndex = 4;
@@ -252,7 +271,7 @@ namespace projeketskp
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(210, 54);
+            this.label5.Location = new System.Drawing.Point(206, 67);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 16);
             this.label5.TabIndex = 6;
@@ -262,58 +281,18 @@ namespace projeketskp
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(210, 41);
+            this.label6.Location = new System.Drawing.Point(206, 51);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(51, 16);
             this.label6.TabIndex = 5;
             this.label6.Text = "label6";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(251, 54);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 16);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(251, 41);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 16);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(251, 28);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 16);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(251, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 16);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "label10";
-            // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(192, 52);
+            this.textBox3.Location = new System.Drawing.Point(220, 52);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(92, 22);
+            this.textBox3.Size = new System.Drawing.Size(64, 22);
             this.textBox3.TabIndex = 3;
             // 
             // checkBox2
@@ -330,9 +309,9 @@ namespace projeketskp
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(192, 104);
+            this.textBox4.Location = new System.Drawing.Point(220, 104);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(92, 22);
+            this.textBox4.Size = new System.Drawing.Size(64, 22);
             this.textBox4.TabIndex = 7;
             // 
             // checkBox3
@@ -349,9 +328,9 @@ namespace projeketskp
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(192, 78);
+            this.textBox5.Location = new System.Drawing.Point(220, 78);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(92, 22);
+            this.textBox5.Size = new System.Drawing.Size(64, 22);
             this.textBox5.TabIndex = 5;
             // 
             // checkBox4
@@ -368,9 +347,9 @@ namespace projeketskp
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(192, 208);
+            this.textBox6.Location = new System.Drawing.Point(220, 208);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(92, 22);
+            this.textBox6.Size = new System.Drawing.Size(64, 22);
             this.textBox6.TabIndex = 15;
             // 
             // checkBox5
@@ -387,9 +366,9 @@ namespace projeketskp
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(192, 182);
+            this.textBox7.Location = new System.Drawing.Point(220, 182);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(92, 22);
+            this.textBox7.Size = new System.Drawing.Size(64, 22);
             this.textBox7.TabIndex = 13;
             // 
             // checkBox6
@@ -406,9 +385,9 @@ namespace projeketskp
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(192, 156);
+            this.textBox8.Location = new System.Drawing.Point(220, 156);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(92, 22);
+            this.textBox8.Size = new System.Drawing.Size(64, 22);
             this.textBox8.TabIndex = 11;
             // 
             // checkBox7
@@ -425,9 +404,9 @@ namespace projeketskp
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(192, 130);
+            this.textBox9.Location = new System.Drawing.Point(220, 130);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(92, 22);
+            this.textBox9.Size = new System.Drawing.Size(64, 22);
             this.textBox9.TabIndex = 9;
             // 
             // checkBox8
@@ -444,9 +423,9 @@ namespace projeketskp
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(192, 312);
+            this.textBox10.Location = new System.Drawing.Point(220, 312);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(92, 22);
+            this.textBox10.Size = new System.Drawing.Size(64, 22);
             this.textBox10.TabIndex = 23;
             // 
             // checkBox9
@@ -463,9 +442,9 @@ namespace projeketskp
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(192, 286);
+            this.textBox11.Location = new System.Drawing.Point(220, 286);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(92, 22);
+            this.textBox11.Size = new System.Drawing.Size(64, 22);
             this.textBox11.TabIndex = 21;
             // 
             // checkBox10
@@ -482,9 +461,9 @@ namespace projeketskp
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(192, 260);
+            this.textBox12.Location = new System.Drawing.Point(220, 260);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(92, 22);
+            this.textBox12.Size = new System.Drawing.Size(64, 22);
             this.textBox12.TabIndex = 19;
             // 
             // checkBox11
@@ -501,9 +480,9 @@ namespace projeketskp
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(192, 234);
+            this.textBox13.Location = new System.Drawing.Point(220, 234);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(92, 22);
+            this.textBox13.Size = new System.Drawing.Size(64, 22);
             this.textBox13.TabIndex = 17;
             // 
             // checkBox12
@@ -520,9 +499,9 @@ namespace projeketskp
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(192, 338);
+            this.textBox14.Location = new System.Drawing.Point(220, 338);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(92, 22);
+            this.textBox14.Size = new System.Drawing.Size(64, 22);
             this.textBox14.TabIndex = 25;
             // 
             // checkBox13
@@ -546,6 +525,133 @@ namespace projeketskp
             this.label11.TabIndex = 1;
             this.label11.Text = "Ekstra Tilbehør";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(263, 36);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 16);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "label7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(263, 52);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 16);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "label8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(263, 20);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(51, 16);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "label9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(263, 68);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(59, 16);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "label10";
+            // 
+            // textBox15
+            // 
+            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(232, 132);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(67, 22);
+            this.textBox15.TabIndex = 31;
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox14.Location = new System.Drawing.Point(28, 134);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(129, 20);
+            this.checkBox14.TabIndex = 30;
+            this.checkBox14.Text = "Mike\'s Farvorit";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.Location = new System.Drawing.Point(232, 80);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(67, 22);
+            this.textBox16.TabIndex = 29;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox15.Location = new System.Drawing.Point(28, 82);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(124, 20);
+            this.checkBox15.TabIndex = 28;
+            this.checkBox15.Text = "Pap\'s Farvorit";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Location = new System.Drawing.Point(232, 26);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(67, 22);
+            this.textBox17.TabIndex = 27;
+            // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox16.Location = new System.Drawing.Point(28, 28);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(132, 20);
+            this.checkBox16.TabIndex = 26;
+            this.checkBox16.Text = "Niels\'s Farvorit";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(3, 157);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(138, 16);
+            this.label14.TabIndex = 33;
+            this.label14.Text = "Brøde og Sodavan";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(3, 105);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(324, 16);
+            this.label13.TabIndex = 35;
+            this.label13.Text = "Tomatsovs, Kebab, Kylling, Salat og Dressing";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 51);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(292, 16);
+            this.label12.TabIndex = 34;
+            this.label12.Text = "Tomatsovs, Leverpostej, Skinke og Salat";
+            // 
             // Forms1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -566,6 +672,8 @@ namespace projeketskp
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
@@ -608,17 +716,26 @@ namespace projeketskp
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
     }
 }
 

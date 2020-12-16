@@ -52,28 +52,10 @@
     <Compile Include="Forms1.Designer.cs">
       <DependentUpon>Forms1.cs</DependentUpon>
     </Compile>
-    <Compile Include="kontaktos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="kontaktos.Designer.cs">
-      <DependentUpon>kontaktos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="laveselv.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="laveselv.Designer.cs">
-      <DependentUpon>laveselv.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms1.resx">
       <DependentUpon>Forms1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="kontaktos.resx">
-      <DependentUpon>kontaktos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="laveselv.resx">
-      <DependentUpon>laveselv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
